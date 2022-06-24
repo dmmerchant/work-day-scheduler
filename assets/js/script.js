@@ -5,7 +5,7 @@ var hourBlocksArea = $('#hourBlocks')
 
 //Global Variables
 var currentDay = moment().format("dddd, MMMM Do, YYYY");
-var currentTime = moment("10","H").format("H");
+var currentTime = moment().format("H");
 var selectedDay = moment().format("MM/DD/YY")
 var storedSchedules = [];
 
